@@ -1,0 +1,3 @@
+resnetEAST Calculated!{"precision": 0.6643911032812156, "recall": 0.5201275752090337, "hmean": 0.5834743509162114, "AP": 0}
+EAST Calculated!{"precision": 0.6352141238220208, "recall": 0.4590121541246444, "hmean": 0.5329263410728583, "AP": 0}
+YOLO Calculated!{"precision": 0.6208227638689754, "recall": 0.4852167916558917, "hmean": 0.544706793110122, "
