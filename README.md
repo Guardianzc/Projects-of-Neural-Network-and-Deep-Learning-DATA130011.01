@@ -4,7 +4,7 @@ The project is mainly about the construction of neural networks.
 ## Project
    * [Lab1_Warmup](./Lab1)
    * [Project1_Handwritten digit classification](./Project1)
-   * [Project3_Blackjack](./Project3_Blackjack)
+   * [Project2_CIFAR-10](./Project2)
    * [Project4_Cars](./Project4_Cars)
    * [FinalProject_GOMOKU](./FinalProject_GOMOKU)
    
@@ -15,10 +15,10 @@ The project is mainly about the construction of neural networks.
     
 **Project1_Handwritten digit classification**
 * In this project, we use MATLAB to achieve the basic methods and settings in neural network
-* You can see the detail of project [here](./Project2_Nqueens/pj2.zip) and my report [here](./Project2_Nqueens/Report.pdf)
+* You can see the detail of project [here](./Project1/project_1.pdf) and my report [here](./Project1/Report_钟诚_16307110259.pdf)
 
-**Project3_Blackjack**
-* In this project, I implement algorithms to find the optimal policy in some situations, also I formalize a modified version of Blackjack as an MDP, and apply the algorithm to find the optimal policy.(Key words: MDP)
+**Project2_CIFAR-10**
+* Network needs to contain a lot of components. (e.g. 2D pooling layer, Drop out, Residual Connection) So it will improve the performance of the network on the CIFAR-10 dataset based on the ResNet-18 network.
 * You can see the detail of project [here](./Project3_Blackjack/index.html) and my report [here](./Project3_Blackjack/Report.pdf)
     
 **Project4_Cars**
