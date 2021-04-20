@@ -5,7 +5,7 @@ The project is mainly about the construction of neural networks.
    * [Lab1_Warmup](./Lab1)
    * [Project1_Handwritten digit classification](./Project1)
    * [Project2_CIFAR-10](./Project2)
-   * [Project4_Cars](./Project4_Cars)
+   * [Project3_3D Object Classification](./Project4_Cars)
    * [FinalProject_GOMOKU](./FinalProject_GOMOKU)
    
 ## Details
@@ -19,10 +19,12 @@ The project is mainly about the construction of neural networks.
 
 **Project2_CIFAR-10**
 * Network needs to contain a lot of components. (e.g. 2D pooling layer, Drop out, Residual Connection) So it will improve the performance of the network on the CIFAR-10 dataset based on the ResNet-18 network.
-* You can see the detail of project [here](./Project3_Blackjack/index.html) and my report [here](./Project3_Blackjack/Report.pdf)
+* You can see the detail of project [here](./Project2/Reference/project_2.pdf) and my report [here](./Project2/Report.pdf)
     
-**Project4_Cars**
-* This project is a modified version of the Driverless Car assignment written by Chris Piech.
+**Project3_Cars**
+* In this project, you will try to use neural network to classify 3D point clouds,
+and initially understand the use of 3D data and the application of deep learning
+in the 3D field.
 * In this project, I focus on the sensing system, which allows us to track other cars based on noisy sensor readings.(Key words: Bayesian network basics, Emission probabilities, Transition probabilities, Particle filtering)
 * You can see the detail of project [here](./Project4_Cars/pj4.pdf) and my report [here](./Project4_Cars/Report.pdf)    
 
