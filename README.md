@@ -5,8 +5,8 @@ The project is mainly about the construction of neural networks.
    * [Lab1_Warmup](./Lab1)
    * [Project1_Handwritten digit classification](./Project1)
    * [Project2_CIFAR-10](./Project2)
-   * [Project3_3D Object Classification](./Project4_Cars)
-   * [FinalProject_GOMOKU](./FinalProject_GOMOKU)
+   * [Project3_3D Object Classification](./Project3)
+   * [FinalProject_Scene Text Recognition](./FinalProject_GOMOKU)
    
 ## Details
 **Lab1_Warmup**
@@ -21,15 +21,14 @@ The project is mainly about the construction of neural networks.
 * Network needs to contain a lot of components. (e.g. 2D pooling layer, Drop out, Residual Connection) So it will improve the performance of the network on the CIFAR-10 dataset based on the ResNet-18 network.
 * You can see the detail of project [here](./Project2/Reference/project_2.pdf) and my report [here](./Project2/Report.pdf)
     
-**Project3_Cars**
-* In this project, you will try to use neural network to classify 3D point clouds,
-and initially understand the use of 3D data and the application of deep learning
-in the 3D field.
-* In this project, I focus on the sensing system, which allows us to track other cars based on noisy sensor readings.(Key words: Bayesian network basics, Emission probabilities, Transition probabilities, Particle filtering)
-* You can see the detail of project [here](./Project4_Cars/pj4.pdf) and my report [here](./Project4_Cars/Report.pdf)    
+**Project3_3D Object Classification**
+* In this project, I will try to use neural network to classify 3D point clouds, and initially understand the use of 3D data and the application of deep learning in the 3D field.
 
-**FinalProject_GOMOKU**
+* You can see the detail of project [here](./Project3/project_3.pdf) and my report [here](./Project3/Project3-Report.pdf)    
+
+**FinalProject_Scene Text Recognition**
 * I do this project with [Ruipu Luo](https://rupertluo.github.io/)
-* In this project, we design a fast and effective search algorithm for Gomoku playing.
-* We use MCTS and Minimax search with $\alpha$-$\beta$ pruning algorithm for Gomoku and add the threat space algorithm to directly find those high-threat points in order to save search time. The  pruning  algorithm  can  reach  the  chess  power  of pisq7, which won the 24th place in the Gomoku AI Contest 2015.
-* You can see the detail of project [here](./FinalProject_GOMOKU/Final_PJ.pdf) and my report [here](./FinalProject_GOMOKU/Alpha_Beta_Pruning_with_Thread_DetectionAlgorithm_for_Gomoku.pdf)
+* In this project, I try to solve the task of scene text recognition. Scene Text Recognition (STR) refers to the recognition of text information in pictures of natural scenes. One related concept is Optical Character Recognition (OCR), which refers to analyzing and processing the scanned document image to identify the text information.
+* In this final project, we used a pipeline model for OCR tasks, that is, first detect the position of the text box, and then do the recognition of text in the box.For the text
+detection stage, we compared the YOLOv3 model and the EAST model, which are widely used in object and text recognition. Due to the high resolution of the picture in the training set, we replaced the backbone of the original EAST model with resnet18, and achieved a certain performance improvement. In the text recognition stage, we adopted two models that is CRNN and Seq2Seq with Attention, which are the most widely used. We finally used the model combination of YOLOv3+CRNN and obtained the best f-measure:(0.3055) on the validation set, which is split from the training set.
+* You can see the detail of project [here](./Final-Project/final_project.pdf) and my report [here](./Final-Project/final_report_16307130247-16307110259.pdf)
